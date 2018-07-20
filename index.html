@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Twitch.tv Viewer</title>
+
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="twitch.js"></script>
+	</head>
+	<body>
+  
+  <div class="wrapper">
+    <div class="logo">
+      <img src="https://s26.postimg.cc/ozmqjxxo9/twitch-logo-light.png">
+    </div>
+    
+    <div class="status-bar">
+      <a class="status" href="#"><h4 id="all">All</h4></a>
+      <a class="status" href="#"><h4 id="online">Online</h4></a>
+      <a class="status" href="#"><h4 id="offline">Offline</h4></a>
+    </div>
+    
+    <div class="twitch-search">
+      <input id="search-box" type="text" placeholder="Enter to search or click to add...">
+    </div>
+    
+    <div class="search-icon">
+      <span class="glyphicon glyphicon-search" id="search-icon" aria-hidden="true"></span>
+    </div>
+    
+    <div class="add-icon">
+      <a class="add" href="#"><i class="glyphicon glyphicon-plus" id="add-icon"></i></a>
+    </div>
+    
+    <div class="channel-list">
+      <ul id="channels">
+      </ul>
+    </div>
+    
+    <div class="footer">
+      <footer>
+      <p>Coded and designed by <em>viva</em>Lucci</p>
+      </footer>
+    </div>
+  </div>
+  
+</body>
+</html>
