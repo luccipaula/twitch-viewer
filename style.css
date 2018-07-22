@@ -128,6 +128,19 @@ li {
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #D5D1F6;
+  animation: moveInBottom .5s ease-out;
+}
+
+@keyframes moveInBottom {
+	0% {
+		opacity: 0;
+		transform: translateY(3rem);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
 }
 
 .channel-icon {
