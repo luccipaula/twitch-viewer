@@ -25,7 +25,7 @@ body {
   display: none;
 }
 
-.home {
+.home, .home:hover, .home:visited {
 	position: absolute;
 	top: 20px;
 	left: 20px;
